@@ -20,7 +20,7 @@ class Currency{
     }
 
 
-    static displayFullCurrency(name,code){
+    displayFullCurrency(name,code){
         return `${this.name} (${this.code})`
     }
 }
