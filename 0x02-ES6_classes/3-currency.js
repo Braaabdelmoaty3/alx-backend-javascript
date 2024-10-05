@@ -5,26 +5,18 @@ class Currency{
     }
 
     get code(){
-        return this._code
+        return this._code;
     }
 
     set code(newCode){
-        if (typeof code === "string"){
-            return this._code
-        } else{
-            throw typeError ("code must be sting")
-        }
+        return this._code = newCode;
     }
 
     get name(){
         return this._name
     }
     set name(newName){
-        if(typeof newName === "string"){
-            return this._name
-        } else {
-            throw typeError("name must be stirng")
-        }
+        return this._name = newName
     }
 
 
